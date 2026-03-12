@@ -12,7 +12,8 @@ public class CalculatorController {
     public Map<String, Double> add(@RequestParam double a, @RequestParam double b) {
         return Map.of("result", a + b);
     }
-
+    /* Testing coderabbit */
+    
     @GetMapping("/subtract")
     public Map<String, Double> subtract(@RequestParam double a, @RequestParam double b) {
         return Map.of("result", a - b);
